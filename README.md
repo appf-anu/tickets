@@ -1,4 +1,4 @@
-# (tickets)[https://github.com/appf-anu/tickets/issues]
+# [tickets](https://github.com/appf-anu/tickets/issues)
 
 Ticketing system for APPF ANU node.
 
