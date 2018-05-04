@@ -9,7 +9,11 @@ Comment in the issue with the action taken/notes about the alert, and tag it wit
 Close the issue only once the ticket is known to be resolved.
 
 Monday - elevingston
+
 Tuesday - TimeScience
+
 Wednesday - zarlo
+
 Thursday - penny
+
 Friday - penny
