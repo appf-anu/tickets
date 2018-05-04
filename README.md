@@ -8,12 +8,14 @@ Comment in the issue with the action taken/notes about the alert, and tag it wit
 
 Close the issue only once the ticket is known to be resolved.
 
-Monday - elevingston
 
-Tuesday - TimeScience
 
-Wednesday - zarlo
+* **Monday** - elevingston
 
-Thursday - penny
+* **Tuesday** - TimeScience
 
-Friday - penny
+* **Wednesday** - zarlo
+
+* **Thursday** - pburrell2
+
+* **Friday** - pburrell2
