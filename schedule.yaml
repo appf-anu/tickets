@@ -1,0 +1,19 @@
+# schedule.yaml
+# this document defines the schedule of who should be notified and when
+# use git usernames who are collaborators on this git repository.
+# specify multiple with a comma and no space (ie. gdunstone,elevingston)
+
+# this list is to always notify regardless of day
+notify_always: 
+  - gdunstone
+
+# this is a list who to notify on specific days of the week, including saturday and sunday, starting on monday (it uses datetime.datetime.today() in python)
+notify_on_days:
+  - elevingston
+  - TimeScience
+  - zarlo
+  - pburrell2
+  - pburrell2
+  - TimeScience
+  - TimeScience
+  
