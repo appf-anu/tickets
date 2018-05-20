@@ -43,7 +43,7 @@
 3. Insert micro-usb power plug into Raspberry Pi, there should be lights on within the raspberry pi (red, green and orange). The particularly important ones are the green and orange lights on the ethernet port (port where the thickest, blue cable plugs in). If there are no lights, escalate.
 4. Wait 30 minutes for [OK] message on ticket before escalating or closing.
 
-### Jetson has failed.
+### Jetson has failed
 
 **Causes:**
 
