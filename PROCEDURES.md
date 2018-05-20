@@ -1,10 +1,10 @@
 ### Chamber has frozen
 
-Causes:
+**Causes:**
 
 *[CRIT] Chamber <chamber> temperature spread 3.00.*
 
-Resolve by:
+**Resolve by:**
 
 1. Ctrl-C the relevant script on jetson.
 2. Turn switch on chamber (side of blue column) to OFF position.
@@ -16,11 +16,11 @@ Resolve by:
 
 ### Camera has failed
 
-Causes:
+**Causes:**
 
 *[OFF] Camera <camera name> deadman*
 
-Resolve by:
+**Resolve by:**
 
 1. Open chamber.
 2. Remove micro-usb power plug from raspberry pi.
@@ -32,11 +32,11 @@ Resolve by:
 
 ### Raspberry Pi has failed.
 
-Causes:
+**Causes:**
 
 *[OFF] RPi <chamber> deadman*
 
-Resolve by:
+**Resolve by:**
 
 1. Open chamber and locate Raspberry Pi.
 2. Remove micro-usb power plug from Raspberry Pi.
@@ -45,11 +45,11 @@ Resolve by:
 
 ### Jetson has failed.
 
-Causes:
+**Causes:**
 
 *[OFF] RPi jetson deadman*
 
-Resolve by:
+**Resolve by:**
 
 1. Check power status of Jetson. If the screen is black, check that the screen is turned on. If the Jetson is off go to step 4.
 2. Press the gear button at the top right of the screen -> Shutdown -> Restart. Go to Step 6.
@@ -62,13 +62,13 @@ Resolve by:
 
 ### Lights have failed
 
-Causes:
+**Causes:**
 
 *[OFF] PAR <chamber> deadman*
 
 *[CRIT] PAR spread*
 
-Resolve by:
+**Resolve by:**
 
 1. Visually check status of lights.
 2. Switch lights off switch exists on light module.
@@ -81,7 +81,7 @@ Resolve by:
 
 ### Chamber has run out of solarcalc file
 
-Causes:
+**Causes:**
 
 *[CRIT] Chamber <chamber> temperature spread 3.00.*
 
@@ -91,7 +91,8 @@ Causes:
 
 *[OFF] Chamber <chamber> deadman*
 
-Resolve by:
+**Resolve by:**
+
 1. Check on jetson for relevant error.
 2. Escalate.
 
