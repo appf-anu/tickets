@@ -27,7 +27,7 @@
 3. Switch camera switch to the OFF position, the screen on the camera should show "Cleaning sensor", or give some indication that it is turning off.
 4. Wait 10-20s.
 5. Switch camera back on, the screen on the camera should turn on and show information, if not escalate.
-6. Insert micro-usb power plug into raspberry pi, there should be lights on within the raspberry pi (red, green and orange). The particularly important ones are the green and orange lights on the ethernet port (port where the thickest, blue cable plugs in). If there are no lights, escalate.
+6. Insert [micro-usb](https://en.wikipedia.org/wiki/USB_(Physical)#Micro_connectors) power plug into raspberry pi, there should be lights on within the raspberry pi (red, green and orange). The particularly important ones are the green and orange lights on the ethernet port (port where the thickest, blue cable plugs in). If there are no lights, escalate.
 7. Wait 2 hours for [OK] message on ticket before escalating or closing.
 
 ### Raspberry Pi has failed.
@@ -39,8 +39,8 @@
 **Resolve by:**
 
 1. Open chamber and locate Raspberry Pi.
-2. Remove micro-usb power plug from Raspberry Pi.
-3. Insert micro-usb power plug into Raspberry Pi, there should be lights on within the raspberry pi (red, green and orange). The particularly important ones are the green and orange lights on the ethernet port (port where the thickest, blue cable plugs in). If there are no lights, escalate.
+2. Remove [micro-usb](https://en.wikipedia.org/wiki/USB_(Physical)#Micro_connectors) power plug from Raspberry Pi.
+3. Insert [micro-usb](https://en.wikipedia.org/wiki/USB_(Physical)#Micro_connectors) power plug into Raspberry Pi, there should be lights on within the raspberry pi (red, green and orange). The particularly important ones are the green and orange lights on the ethernet port (port where the thickest, blue cable plugs in). If there are no lights, escalate.
 4. Wait 30 minutes for [OK] message on ticket before escalating or closing.
 
 ### Jetson has failed
