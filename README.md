@@ -1,5 +1,7 @@
 # [tickets](https://github.com/appf-anu/tickets/issues)
 
+# [procedures](https://github.com/appf-anu/tickets/wiki/Procedures)
+
 Ticketing system for APPF ANU node.
 
 Kapacitor will create an issue here when an alert is triggered.
