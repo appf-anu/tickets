@@ -11,3 +11,5 @@ Comment in the issue with the action taken/notes about the alert, and tag it wit
 Close the issue only once the ticket is known to be resolved.
 
 You can also add the FIXED label to an issue that you have actioned on and believe strongly to be fixed, and if the system returns to the OK state it will close the issue for you.
+
+`schedule.yaml` contains the definitions for the schedule, and who should be assigned to issues for what day.
