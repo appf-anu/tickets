@@ -4,8 +4,7 @@
 # specify multiple with a comma and no space (ie. gdunstone,elevingston)
 
 # this list is to always notify regardless of day
-notify_always: 
-  - gdunstone
+notify_always: []
 
 # this is a list who to notify on specific days of the week, including saturday and sunday, starting on monday (it uses datetime.datetime.today() in python)
 notify_on_days:
