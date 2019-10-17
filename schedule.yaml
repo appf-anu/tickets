@@ -35,7 +35,8 @@ device_services:
     - gdunstone!
   GC36:
     - pgf-team
-    - someoneelse
+  GC99:
+    - gdunstone
 
 default_services:
   - pgf-team
