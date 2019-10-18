@@ -5,9 +5,7 @@
 
 
 # this will exclude the following users from notification (for leave/vacation)
-overrides: 
-  - pburrell2
-  - TimeScience
+overrides: []
 
 # days in which escalation policies and device_service notifications are assigned
 # an exclamation mark at the end of a name indicates that this will be ignored and 
@@ -20,23 +18,16 @@ schedules:
   gdunstone: [monday, tuesday, wednesday, thursday, friday, saturday, sunday]
 
 escalation_chains:
-  #other-team:
-  #  - someoneelse
   pgf-team:
-  #  - other-team
     - pburrell2
     - RichardPoire
     - gdunstone!
 
 device_services:
-  GC37:
-    - pburrell2
-    - RichardPoire
-    - gdunstone!
-  GC36:
-    - pgf-team
   GC99:
-    - gdunstone
+    - gdunstone!
+  gigavision:
+    - TimeScience
 
 default_services:
   - pgf-team
