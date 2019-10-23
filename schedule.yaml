@@ -26,10 +26,11 @@ escalation_chains:
   glasshouse:
     - penny
     - richard
+    - gareth!
   pgf:
     - penny
     - richard
-    - gareth
+    - gareth!
 
 device_services:
   GC99:
