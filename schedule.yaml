@@ -1,39 +1,41 @@
 # schedule.yaml
-# this document defines the schedule of who should be notified and when
-# use git usernames who are collaborators on this git repository.
-# specify multiple with a comma and no space (ie. gdunstone,elevingston)
+people:
+  richard: 
+    override_until: 2019-10-30
+    slack: richard.poire
+    github: RichardPoire
+  gareth:
+    slack: gdunstone
+    github: gdunstone
+  ellen: 
+    schedule: [monday, tuesday, wednesday, thursday]
+    slack: ellen
+    github: elevingston
+  tim:
+    slack: timb
+    github: TimeScience
+  penny:
+    schedule: [tuesday, thursday]
+    github: pburrell2
+  ruaraidh:
+    slack: ruaraidh.mills01
+    github: ruaraidh-mills
 
-
-# this will exclude the following users from notification (for leave/vacation)
-overrides: []
-
-# days in which escalation policies and device_service notifications are assigned
-# an exclamation mark at the end of a name indicates that this will be ignored and 
-# the issue assigned regardless
-schedules:
-  RichardPoire: [monday, tuesday, wednesday, thursday, friday, saturday, sunday]
-  elevingston: [monday, tuesday, wednesday, thursday]
-  pburrell2: [tuesday, thursday]
-  TimeScience: [monday, tuesday, wednesday, thursday, friday, saturday, sunday]
-  gdunstone: [monday, tuesday, wednesday, thursday, friday, saturday, sunday]
 
 escalation_chains:
-  pgf-team:
-    - pburrell2
-    - RichardPoire
-    - gdunstone!
+  glasshouse:
+    - penny
+    - richard
+  pgf:
+    - penny
+    - richard
+    - gareth
 
 device_services:
   GC99:
-    - gdunstone!
+    - gareth
   gigavision:
-    - TimeScience
+    - tim
 
-default_services:
-  - pgf-team
-
-slackmap:
-  RichardPoire: richard.poire
-  gdunstone: gdunstone
-  elevingston: ellen
-  TimeScience: timb
+default_chain:
+  - pgf
