@@ -35,6 +35,8 @@ escalation_chains:
 device_services:
   GC99:
     - gareth
+  GC05:
+    - ellen!
   gigavision:
     - tim
 
