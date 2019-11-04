@@ -38,6 +38,7 @@ device_services:
   GC05:
     - ellen!
   gigavision:
+    - gareth
     - tim
 
 default_chain:
