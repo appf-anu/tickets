@@ -37,6 +37,7 @@ device_services:
     - gareth
   GC05:
     - ellen!
+    - gareth
   gigavision:
     - gareth
     - tim
