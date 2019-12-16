@@ -1,7 +1,7 @@
 # schedule.yaml
 people:
   richard: 
-    override_until: 2019-10-30
+    override_until: 2020-01-08
     slack: richard.poire
     github: RichardPoire
   gareth:
@@ -15,12 +15,15 @@ people:
     slack: timb
     github: TimeScience
   penny:
+    override_until: 2020-01-14
     schedule: [tuesday, thursday]
     github: pburrell2
   ruaraidh:
+    override_until: 2020-01-06
     slack: ruaraidh.mills01
     github: ruaraidh-mills
-
+  ming:
+    slack: mchia
 
 escalation_chains:
   glasshouse:
@@ -33,6 +36,9 @@ escalation_chains:
     - gareth!
 
 device_services:
+  GC35: 
+    - ming!
+    - pgf
   GC99:
     - gareth
   GC05:
