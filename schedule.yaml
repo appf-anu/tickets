@@ -12,6 +12,7 @@ people:
     slack: ellen
     github: elevingston
   tim:
+    override_until: 2020-01-02
     slack: timb
     github: TimeScience
   penny:
@@ -34,6 +35,7 @@ escalation_chains:
     - penny
     - richard
     - gareth!
+    - tim
 
 device_services:
   GC35: 
