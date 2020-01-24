@@ -1,7 +1,6 @@
 # schedule.yaml
 people:
   richard: 
-    override_until: 2020-01-08
     slack: richard.poire
     github: RichardPoire
   gareth:
@@ -41,14 +40,19 @@ device_services:
   GC35: 
     - ming!
     - pgf
-  GC99:
-    - gareth
+  GC02:
+    - pgf
+  GC03:
+    - pgf
+  GC04:
+    - pgf
   GC05:
-    - ellen!
-    - gareth
+    - pgf
   gigavision:
     - gareth
     - tim
+  GC99:
+    - gareth
 
 default_chain:
   - pgf
