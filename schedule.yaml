@@ -24,6 +24,7 @@ people:
     github: ruaraidh-mills
   ming:
     slack: mchia
+    github: mdchia
 
 escalation_chains:
   glasshouse:
