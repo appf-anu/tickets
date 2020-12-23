@@ -38,8 +38,9 @@ escalation_chains:
     - tim
 
 device_services:
-  GC35: 
-    - ming!
+  GC35:
+    - pgf
+  GC37:
     - pgf
   GC02:
     - pgf
