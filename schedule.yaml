@@ -23,7 +23,7 @@ people:
     slack: ruaraidh.mills01
     github: ruaraidh-mills
   ming:
-    slack: mchia
+    slack: U37B10HTJ
     github: mdchia
 
 escalation_chains:
@@ -35,6 +35,7 @@ escalation_chains:
     - penny
     - richard
     - gareth!
+    - ming!
     - tim
 
 device_services:
