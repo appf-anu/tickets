@@ -6,10 +6,6 @@ people:
   gareth:
     slack: gdunstone
     github: gdunstone
-  ellen: 
-    schedule: [monday, tuesday, wednesday, thursday]
-    slack: ellen
-    github: elevingston
   tim:
     override_until: 2020-01-02
     slack: timb
